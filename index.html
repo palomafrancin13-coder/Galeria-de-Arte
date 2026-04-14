@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Arte</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Galeria de Arte</h1>
+
+<div class="search-box">
+    <input type="text" id="busca" placeholder="Digite o nome da obra ou artista">
+    <button onclick="buscarObras()">Buscar</button>
+</div>
+
+<hr>
+
+<table>
+    <thead>
+        <tr>
+            <th>Imagem</th>
+            <th>Título</th>
+            <th>Artista</th>
+            <th>Data</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody id="resultado"></tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
